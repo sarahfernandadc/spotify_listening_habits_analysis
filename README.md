@@ -15,6 +15,7 @@ The primary goal is to answer specific questions about my listening behavior. Th
 - What are my peak listening times? (Analysis by hour and day of the week)
 - How does my listening activity change over the months of the year?
 - What is the average duration of the tracks I listen to?
+
 and additional ones to be defined
 
 ### Secondary Analysis (Skipped Tracks)
