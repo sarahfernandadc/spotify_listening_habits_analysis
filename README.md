@@ -26,7 +26,7 @@ and additional ones to be defined
 
 This project follows a structured and modular workflow:
 
-1.  **Data Loading:** A custom function loads multiple JSON files (`StreamingHistory*.json`) and merges them into a single Pandas DataFrame.
+1.  **Data Loading:** A custom function loads multiple JSON files (`StreamingHistory_music*.json`) and merges them into a single Pandas DataFrame.
 2.  **Data Preprocessing:** A dedicated pipeline function cleans the data by:
     - Converting `endTime` to a proper datetime format.
     - Engineering new features like `secondsPlayed` and `minutesPlayed`.
@@ -45,10 +45,18 @@ This project follows a structured and modular workflow:
 
 ## 🚀 How to Run
 
-1.  Clone this repository to your local machine.
-2.  Upload your personal Spotify `StreamingHistory*.json` files to the root directory.
-3.  Open the `spotify_listening_habits_analysis.ipynb` notebook in an environment like Google Colab or a local Jupyter instance.
-4.  Execute the cells in order to reproduce the analysis.
+1. **Request your Spotify data**  
+   Go to [Spotify's Privacy Page](https://www.spotify.com/account/privacy/) and request your streaming history.  
+   Spotify will email you a download link — this may take a few days.
+
+2. **Open the notebook on Google Colab**  
+   The notebook is configured to run on Google Colab. Simply open the `.ipynb` file as indicated in the repository.
+
+3. **Upload your Spotify data**  
+   In the first cell of the notebook, you’ll be prompted to upload your `StreamingHistory_music*.json` files (you can upload multiple files).
+
+4. **Run the analysis**  
+   Execute the cells one by one to process your listening history and generate personalized insights.
 
 ## 📊 Current Status & Next Steps
 
